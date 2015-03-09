@@ -10,4 +10,4 @@
 
 FROM scratch
 ADD ./uppercase /uppercase
-CMD ["/uppercase", "test"]
+ADD ./prince-valium /prince-valium
