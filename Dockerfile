@@ -11,4 +11,4 @@
 FROM scratch
 ADD ./uppercase /uppercase
 ADD ./prince-valium /prince-valium
-ADD http://geec-client.s3.amazonaws.com/runner /runner
+ADD ./runner /runner
