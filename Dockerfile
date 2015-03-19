@@ -11,4 +11,3 @@
 FROM scratch
 ADD ./uppercase /uppercase
 ADD ./prince-valium /prince-valium
-ADD ./runner /runner
