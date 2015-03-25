@@ -1,0 +1,24 @@
+microservice:
+  name: 'shout'
+  description: 'uppercases input data'
+  docker_image: 'imightbeinatree/shout'
+  docker_image_tag: '0.1'
+  github_url: 'https://github.com/imightbeinatree/go-uppercase'
+  docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/shout/'
+  category: 'text'
+  tags: ['text', 'strings']
+  developer_name: 'imbiat'
+  developer_type: 'User'
+  published: true
+  command: '/uppercase [string]'
+  inputs:
+    string:
+      param_type: 'String'
+      regex: ''
+      required: true
+      secure: false
+      description: 'string to be uppercased'
+  outputs:
+    string:
+      param_type: 'String'
+      description: 'the uppercased string'
