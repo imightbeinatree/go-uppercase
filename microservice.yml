@@ -1,8 +1,9 @@
 microservice:
+  spec_version: '2.0'
   name: 'shout'
   description: 'uppercases input data'
   docker_image: 'imightbeinatree/shout'
-  docker_image_tag: '0.1'
+  docker_image_tag: '0.2'
   github_url: 'https://github.com/imightbeinatree/go-uppercase'
   docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/shout/'
   category: 'text'
