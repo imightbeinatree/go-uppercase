@@ -3,8 +3,8 @@ microservice:
   name: 'shout'
   description: 'uppercases input data'
   docker_image: 'imightbeinatree/shout'
-  docker_image_tag: '0.2'
-  github_url: 'https://github.com/imightbeinatree/go-uppercase'
+  docker_image_tag: '0.3'
+  repo_url: 'https://github.com/imightbeinatree/go-uppercase'
   docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/shout/'
   category: 'text'
   tags: ['text', 'strings']
